@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:threadtest="http://schemas.android.com/apk/res/com.example.threadtest" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.threadtest.MainActivity" >
+        <com.example.threadtest.MyView
+  		android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"    
+        threadtest:border_color="#FFFFFFFF"    
+        threadtest:border_width="22dp" >
+        </com.example.threadtest.MyView>
+<!--     <FrameLayout
+        android:id="@+id/circle_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        
+        <com.example.threadtest.MyView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        threadtest:border_color="#ff898989"
+	        threadtest:border_width="20dp">
+        </com.example.threadtest.MyView>
+        
+    </FrameLayout> -->
+<!--         
+    <FrameLayout
+        android:id="@+id/circle_two"  
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <com.example.threadtest.MyView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        threadtest:border_color="#ff898989"
+	        threadtest:border_width="20dp">
+        </com.example.threadtest.MyView>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/circle_three" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <com.example.threadtest.MyView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        threadtest:border_color="#ff898989"
+	        threadtest:border_width="20dp">
+        </com.example.threadtest.MyView>
+    </FrameLayout> -->
+</LinearLayout>
